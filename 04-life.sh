@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "What is the meaning of life?"
 read meaning
@@ -12,5 +13,5 @@ fi
 #  here are some other arithemetic comparison operators
 # -eq -ne -gt -ge -lt -le
 
-# exercise: write a script that prints whether it is 
+# exercise: write a script that prints whether it is
 # morning or not
