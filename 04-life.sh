@@ -16,8 +16,10 @@ fi
 # exercise: write a script that prints whether it is
 # morning or not
 
-if [ $(date +"%H") -lt 12 ]; then
-  echo "It is morning"
-else
-  echo "It is not morning"
+if [ $(date +"%H") -ge 18 ]; then
+  echo "It is the evening"
+elif [ $(date +"%H") -ge 12 ]; then
+  echo "It is the afternoon"
+elif [ $(date +"%H") -lt 12 ]; then
+  echo "It is the morning"
 fi
