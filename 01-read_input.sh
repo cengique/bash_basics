@@ -14,3 +14,4 @@ echo 'Your name was stored in $name'
 echo "$name, please give a name for a file"
 read filename 
 > $filename 
+
