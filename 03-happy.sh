@@ -14,3 +14,15 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+echo "What day is it?"
+read answer
+
+if [ "$answer" = "Sat" ] ||
+        [ "$answer" = "Sun" ] ||
+        [ "$answer" = "Saturday" ] ||
+        [ "$answer" = "Sunday" ]; then
+   echo "Today is a weekend day"
+else
+   echo "Today is not a weekend day"
+fi
