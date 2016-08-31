@@ -16,9 +16,9 @@ read width
 echo "Insert height!!!"
 read height
 
-total=$((width+height))
+totals=$((width+height))
 
-echo "The total is $total."
+echo "The total is $totals."
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
