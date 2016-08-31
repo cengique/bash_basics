@@ -11,9 +11,9 @@ sum=$(( first+second+third ))
 
 echo "The sum is $sum"
 
-echo "What is the width?"
+echo "Insert width!!!"
 read width
-echo "What is the height?"
+echo "Insert height!!!"
 read height
 
 total=$((width+height))
