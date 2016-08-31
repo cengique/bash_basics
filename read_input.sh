@@ -27,11 +27,19 @@ public class filecreate {
 
 		try {
 			Scanner input = new Scanner(System.in);
+<<<<<<< HEAD
 			System.out.println("Enter a file name: ");
 			String fileName = input.nextLine();
 			File file = new File(fileName + ".txt");
 			if (file.createNewFile())
 				System.out.println("File created");
+=======
+			System.out.println(“type a file name: ");
+			String fileName = input.nextLine();
+			File file = new File(fileName + ".txt");
+			if (file.createNewFile())
+				System.out.println("File Done”);
+>>>>>>> firstcommit
 			else
 				System.out.println("Error");
 		} catch (IOException ioe) {
