@@ -22,4 +22,7 @@ if [ $weekend = yes ] || [ $weekend = y ] || [ $weekend = Yes ] || [ $weekend = 
 	echo "Jump for joy! It's the weekend!"
 else
 	echo "Bummer :("
+
 fi
+echo "7 days in a week and only 2 of them are free. Sigh..."
+

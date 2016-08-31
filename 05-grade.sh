@@ -32,3 +32,4 @@ elif [ $temp -lt 40 ]; then
 else 
 	echo "it's hot"
 fi
+

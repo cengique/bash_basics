@@ -23,3 +23,4 @@ if [ $thisTime -le 1200 ]; then
 else
 	echo "It is not morning time."
 fi
+

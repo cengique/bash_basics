@@ -14,4 +14,7 @@ echo 'Your name was stored in $name'
 echo "Please enter a filename: "
 read name_file
 touch $name_file
+
 echo "Created" $name_file "in this directory."
+echo "You can do anything you want with this empty file!"
+

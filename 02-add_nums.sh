@@ -20,4 +20,6 @@ echo "Enter pixel height"
 read height
 
 sum=$(( width*height ))
+
 echo "The total number of pixels is: $sum"
+
