@@ -1,21 +1,23 @@
 #!/bin/sh
 
 
-echo "What did you get in the first ITEC 3860 test?"
-echo "Please give a numeric answer"
-read grade
+echo "Whats the temperature?"
+echo "Please give me a number"
+read temperature
 
-if [ $grade -ge 90 ]; then
-   echo "You got an A. Nice."
-elif [ $grade -ge 80 ]; then
-   echo "You got a B. That's good."
-elif [ $grade -ge 70 ]; then
-   echo "You got a C. Not bad."
+if [ $temperature -ge 90 ]; then
+   echo "Its hot. "
+elif [ $temperature -ge 71 ]; then
+   echo "it's cold"
+ elif [ $temperature -ge 61 ]; then
+    echo "it's alright"
+elif [ $temperature -ge 39 ]; then
+   echo "It's cold, wear a jakcet."
 else
-   echo "Time to work on some extra credit assignments"
+   echo "Be careful outside."
 fi
-
-# exercise: write a script (that utilizes weather-util) 
+/bin/bash
+# exercise: write a script (that utilizes weather-util)
 # that prints "it's cold" if the temperature is < 40
-# it's chilly if < 60, it's okay if < 70 and, it's hot for 
+# it's chilly if < 60, it's okay if < 70 and, it's hot for
 # everything else
