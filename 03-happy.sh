@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+echo "Is today a weeknd?"
+read weekend
+
+if [ $weekend = yes ] || [ $weekend = y ] || [ $weekend = Yes ] || [ $weekend = Y ]; then
+	echo "Jump for joy! It's the weekend!"
+else
+	echo "Bummer :("
+fi
