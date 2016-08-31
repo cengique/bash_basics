@@ -16,6 +16,7 @@ while [ $count -ge 0 ]; do
   fi
   
   # the following statement is equivalent to: let "count=count-1"
+  # are these instructions? Did I miss something?
   ((count = count - 1))
 
 done
