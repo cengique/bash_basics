@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "what is your width"
+echo "what is your lastname"
 read first
 echo "what is your height"
 read second
