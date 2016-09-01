@@ -14,11 +14,30 @@
 
 # exercise: write a script that prints whether it is 
 # morning or not
-
+echo
+echo
+echo
+echo "I kepted both intentionally."
+echo
+echo
+echo "Version one:"
+echo
+echo
 morning=$(date +%H)
 echo "Its is currently "$morning"00."
-if [ "$morning" -eq 42 ]; then
+if [ "$morning" -lt 12 ]; then
     echo "it is the morning. " #it is currently \"$date\""
 else 
     echo "It is not the morning anymore. " #It is currently "+$date +%r +"." 
+fi
+echo
+echo "Version two:"
+echo
+echo
+echo "ITSSS MORNGING GUYS"
+TIME=$(date +%H)
+if [ "$TIME" -lt 12 ]; then
+    echo "OHHHHHHHHHHHHHHHHYYYYYYYYYYYYAAAAAAAAAAAAAAAAAAAAAA"
+else echo "Just kidding, its the afternoon"
+
 fi
