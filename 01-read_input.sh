@@ -14,4 +14,10 @@ echo 'Your name was stored in $name'
 echo "Please enter the file name"
 read filename
 touch $filename
+<<<<<<< HEAD
 echo "Your file has been created!"
+=======
+echo "Your file has been created!"
+
+#Wahahahah
+>>>>>>> editBranch
