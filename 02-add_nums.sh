@@ -1,15 +1,15 @@
 #!/bin/sh
 
-echo "Enter your first number"
+echo "what is your lastname"
 read first
-echo "Enter your second number"
+echo "what is your height"
 read second
-echo "Enter your third number"
-read third
 
-sum=$(( first+second+third ))
+sum=$(( width+height))
 
-echo "The sum is $sum"
+echo "The total is $sum"
+
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
+
