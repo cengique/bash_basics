@@ -1,4 +1,4 @@
-
+#!/bin/bash
 echo "What is the meaning of life?"
 read meaning
 
@@ -14,3 +14,10 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+h=`date +%H`
+if [ $h -lt 12 ]; then
+   echo "It is morning now"
+else
+   echo "Aww.. it isn't morning"
+fi
