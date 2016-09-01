@@ -7,7 +7,14 @@ if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
    echo "Still Smile :)"
-fi
+
+echo "Is today the weekend?"
+read day
+
+if ["$day" = "yes"]; then
+   echo "Weekend"
+else
+   echo "Not the Weekend"
 
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
