@@ -1,12 +1,12 @@
 #!/bin/sh
 
-echo "You are happy?"
+echo "Is it the weekend?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+   echo "Hell Yea :)"
 else
-   echo "Still Smile :)"
+   echo "Hell No :)"
 fi
 
 # here are the other string comparison operators
