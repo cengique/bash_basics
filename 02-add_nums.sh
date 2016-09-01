@@ -13,9 +13,9 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
-echo "Enter width in Pixels"
-read firstpixel
 echo "Enter length in Pixels"
+read firstpixel
+echo "Enter width in Pixels"
 read secondpixel
 
 sum=$((firstpixel+secondpixel))
