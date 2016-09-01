@@ -18,5 +18,6 @@ read firstpixel
 echo "Enter width in Pixels"
 read secondpixel
 
+
 sum=$((firstpixel+secondpixel))
 echo "The total is $sum pixels"
