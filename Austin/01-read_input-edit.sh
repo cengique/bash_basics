@@ -6,3 +6,4 @@ echo "Please enter a filename."
 read filename
 touch $filename.txt
 echo "A new .txt file named $filename has been created in the current directory." 
+
