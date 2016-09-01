@@ -14,7 +14,7 @@ elif [ $temperature -ge 71 ]; then
 elif [ $temperature -ge 39 ]; then
    echo "It's cold, wear a jakcet."
 else
-   echo "Be careful outside."
+   echo "Be careful outside.!"
 fi
 /bin/bash
 # exercise: write a script (that utilizes weather-util)
