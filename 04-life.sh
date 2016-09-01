@@ -16,6 +16,7 @@ fi
 # morning or not
 
 h=`date +%H`
+<<<<<<< HEAD
 if [ $h -lt 12 ]; then
    echo "It is morning now"
 else
