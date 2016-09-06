@@ -3,7 +3,7 @@
 
 echo "Hello! What is your name"
 read name
-echo "Welcome, $name"
+echo "Welcome, Alvin Jean. You are great!"
 
 # single quotes prevent the expansion of the variable
 echo 'Your name was stored in $name'
