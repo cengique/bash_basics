@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+echo "What day is it?"
+read answer
+
+if [[ "$answer" =~ ([Ss]aturday|[Ss]unday|[Ss]un|[Ss]at) ]]; then
+   echo "Yay! It is the weekend!"
+else
+   echo "It is not the weekend."
+fi
