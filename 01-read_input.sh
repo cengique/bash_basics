@@ -4,7 +4,8 @@
 echo "Hello! What is your name"
 read name
 echo "Welcome, $name"
-
+echo "what is your lastname"
+read lastname
 # single quotes prevent the expansion of the variable
 echo 'Your name was stored in $name'
 
