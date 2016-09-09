@@ -1,12 +1,11 @@
 #!/bin/sh
 
-echo "You are happy?"
-read answer
+day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
 
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+if [ $day = "Sat," ] || [ $day = "Sun," ]; then
+   echo "This is the weekend"
 else
-   echo "Still Smile :)"
+   echo "This is NOT the weekend"
 fi
 
 # here are the other string comparison operators
