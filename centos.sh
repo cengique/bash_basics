@@ -12,3 +12,5 @@ cat /etc/centos-release
 # update packages
 yum update
 
+# checkout new branch
+Rbranch is updated 
