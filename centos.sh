@@ -12,3 +12,4 @@ cat /etc/centos-release
 # update packages
 yum update
 
+
