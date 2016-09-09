@@ -12,5 +12,4 @@ cat /etc/centos-release
 # update packages
 yum update
 
-# list adam's repos
-Adam repo is up to date
+
