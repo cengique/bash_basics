@@ -11,7 +11,7 @@ echo 'Your name was stored in $name'
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
 
-#import java.io.File;
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 /**
@@ -27,11 +27,19 @@ public class filecreate {
 
 		try {
 			Scanner input = new Scanner(System.in);
+<<<<<<< HEAD
 			System.out.println("Enter a file name: ");
 			String fileName = input.nextLine();
 			File file = new File(fileName + ".txt");
 			if (file.createNewFile())
 				System.out.println("File created");
+=======
+			System.out.println(“type a file name: ");
+			String fileName = input.nextLine();
+			File file = new File(fileName + ".txt");
+			if (file.createNewFile())
+				System.out.println("File Done”);
+>>>>>>> firstcommit
 			else
 				System.out.println("Error");
 		} catch (IOException ioe) {
