@@ -16,6 +16,6 @@ else
 fi
 
 # exercise: write a script (that utilizes weather-util) 
-# that prints "it's cold" if the temperature is < 40
-# it's chilly if < 60, it's okay if < 70 and, it's hot for 
+# that prints "it's Cold" if the temperature is < 40
+# it's Chilly if < 60, it's ok! if < 70 and, it's HOT for 
 # everything else
