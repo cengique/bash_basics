@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    background-image: url("image/gold.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+h1 {
+    color:#000;
+}
+
+img {
+    text-align: center;
+}
