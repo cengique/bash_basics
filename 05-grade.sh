@@ -1,3 +1,4 @@
+
 #!/bin/sh
 
 
@@ -13,6 +14,20 @@ elif [ $grade -ge 70 ]; then
    echo "You got a C. Not bad."
 else
    echo "Time to work on some extra credit assignments"
+fi
+
+echo "What is the weather today?"
+echo "Please give a numeric answer"
+read weather
+
+if [ $weather -lt 40 ]; then
+   echo "it's cold"
+elif [ $weather -lt 60 ]; then
+   echo "it's chilly"
+elif [ $weather -lt 70 ]; then
+   echo "it's okay"
+else
+   echo "it's hot"
 fi
 
 # exercise: write a script (that utilizes weather-util) 

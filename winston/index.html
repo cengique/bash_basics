@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <title>
+    One Piece - Winston :)
+   </title>
+   
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/javascript" src="function.js">
+   
+  
+  </head>
+  
+  <body>
+    <!-- Your page here (can include more script tags) -->
+  <h1 align="center"> One Piece is the best anime ever!!!!!</h1>
+  
+  <h3 align="center"> You should watch it!GO GO GO!!!!!</h3>
+  
+ 
+<br>
+
+<h3>JavaScript Button</h3>
+
+
+<p>Who is One Piece Main Character? click "Click Me!" below to find out.</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+
+<p id="d">The answer is...</p>
+
+<script>
+function myFunction() {
+    document.getElementById("d").innerHTML = "Luffy";
+}
+</script>
+
+<br>
+<h3>JavaScript Array</h3>
+
+
+<p>What are some of Luffy favorite food?</p>
+
+<button onclick="myFunction1()">Let See!</button>
+
+<p id="d2"></p>
+
+<script>
+var foods = ["Banana", "Meat", "Rice", "Mango", "Fish", "Soup"];
+document.getElementById("d2").innerHTML = foods;
+function myFunction1() {
+    document.getElementById("d2").innerHTML = foods.pop();
+}
+</script>
+
+<br>
+
+<h3>JavaScript For loop</h3>
+
+
+
+
+<p id="d3"></p>
+
+<script>
+var text = "";
+var i;
+for (i = 0; i < 10; i++) {
+    text += "For loop list number " + i + "<br>";
+}
+document.getElementById("d3").innerHTML = text;
+function myFunction3() {
+    document.getElementById("d3").innerHTML = text.pop();
+}
+</script>
+
+<br>
+
+<h3>JavaScript redirect to website </h3>
+<button id="myButton" class="float-left submit-button" >One piece Wiki</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "http://onepiece.wikia.com/wiki/Main_Page";
+    };
+</script>
+
+  </body>
+  
+  
+  
+</html>
