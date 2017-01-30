@@ -19,6 +19,6 @@ read width
 echo "Enter the height of the image pixels"
 read height
 
-area=$((width*height))
+total=$((width*height))
 
-echo "The total number of pixels is $area"
+echo "The total number of pixels is $total"
