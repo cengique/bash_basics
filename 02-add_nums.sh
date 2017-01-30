@@ -19,6 +19,6 @@ read width;
 echo "Enter a number for height: ";
 read height;
 
-total=$(( width * height ));
+totalPixels=$(( width * height ));
 
-echo "The total amount of pixels is $total.";
+echo "The total amount of pixels is $totalPixels.";
