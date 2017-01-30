@@ -21,4 +21,5 @@ read height;
 
 total=$(( width * height ));
 
+echo "This is on branch_john: ";
 echo "The amount of pixels is $total.";
