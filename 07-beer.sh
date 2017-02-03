@@ -13,6 +13,9 @@ while [ $count -ge 0 ]; do
       echo "Take one down pass it around"
   else
       echo "no more bottles of beer on the wall"
+      echo "Let's sing it again!"
+      echo "How many bottles?"
+      read count
   fi
   
   # the following statement is equivalent to: let "count=count-1"
