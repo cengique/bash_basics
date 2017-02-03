@@ -13,7 +13,6 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
-# changed by Johnson Lam
 
 echo "Enter a number for width ";
 read width;
@@ -22,4 +21,4 @@ read height;
 
 total=$(( width * height ));
 
-echo "The total number pixel is $total!!!";
+echo "The total pixels is $total.";
