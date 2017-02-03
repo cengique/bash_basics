@@ -13,4 +13,5 @@ echo 'Your name was stored in $name'
 echo "What file name would you like to use?"
 read fileName
 touch $fileName
-echo "$fileName was created successfully!"
+echo "Congrats, $fileName was created successfully!"
+
