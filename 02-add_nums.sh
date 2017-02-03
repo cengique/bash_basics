@@ -10,5 +10,7 @@ area=$(( first * second ))
 echo "The number of pixels is $area"
 read final
 
+sup
+
 # exercise: ask the user for the width and height and present total
 # number of pixels
