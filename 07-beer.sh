@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Let's sing a beer song"
-echo "How many bottles?"
+echo "How many bottles of beer are on the wall?"
 read count
 
 while [ $count -ge 0 ]; do
@@ -13,6 +13,9 @@ while [ $count -ge 0 ]; do
       echo "Take one down pass it around"
   else
       echo "no more bottles of beer on the wall"
+      echo "Let's sing it again!"
+      echo "How many bottles of beer are on the wall?"
+      read count
   fi
   
   # the following statement is equivalent to: let "count=count-1"
