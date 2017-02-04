@@ -1,10 +1,10 @@
 #!/bin/sh
 
-echo "Enter your first number"
+echo "Enter pixles number?"
 read first
-echo "Enter your second number"
+echo "Enter second pixles number?"
 read second
-echo "Enter your third number"
+echo "Enter total pixles?"
 read third
 
 sum=$(( first+second+third ))
