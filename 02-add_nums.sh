@@ -19,6 +19,7 @@ read width
 echo "enter the number of pixles in the height of your screen"
 read height
 
+
 numPixles=$((width*height))
 
 echo "The total number of pixles in your screen is $numPixles"
