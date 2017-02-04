@@ -5,6 +5,7 @@ read first
 echo "Enter the height of pixels?"
 read second
 echo "Enter current total number of pixeles?"
+
 read third
 
 sum=$(( first+second+third ))
