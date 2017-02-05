@@ -17,19 +17,26 @@ else
 fi
 
 
-echo "Place temp in numerics"
-if [ $temperature -ge 70 ]; then
+
+
+
+
+echo "Please place your temperature"
+echo "Please give a numeric answer"
+read temprature
+
+if [ $temprature -ge 70 ]; then
    echo "it's hot"
-elif [ $temperature -ge 60 ]; then
+elif [ $temprature -ge 60 ]; then
    echo "it's okay"
-elif [ $temperature -ge 40 ]; then
+elif [ $temprature -ge 40 ]; then
+
    echo "it's chilly"
 else
    echo "it's cold"
 fi
 
-#trynna push again again
-#
+
 # exercise: write a script (that utilizes weather-util) 
 # that prints "it's cold" if the temperature is < 40
 # it's chilly if < 60, it's okay if < 70 and, it's hot for 
