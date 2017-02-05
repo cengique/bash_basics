@@ -27,6 +27,9 @@ elif [ $temperature -ge 40 ]; then
 else
    echo "it's cold"
 fi
+
+#trynna push again again
+#
 # exercise: write a script (that utilizes weather-util) 
 # that prints "it's cold" if the temperature is < 40
 # it's chilly if < 60, it's okay if < 70 and, it's hot for 
