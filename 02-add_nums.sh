@@ -20,3 +20,4 @@ echo "Enter screen height"
 read height
 numPixel=$((width*height))
 echo "The total number of pixels is" $numPixel
+
