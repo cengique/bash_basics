@@ -14,3 +14,10 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+day=`date +%u`
+
+if [ $day -le 5 ]; then
+	echo "It's not the weekend"
+else
+	echo "It's the weekend"
+fi
