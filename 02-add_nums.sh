@@ -21,4 +21,3 @@ read height
 total=$(( width * height ))
 
 echo "The total number of pixels is: $total"
-echo "This is differently edited!"
