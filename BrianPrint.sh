@@ -1,2 +1,2 @@
-01-read_input.sh
+#!/bin/bash
 echo "Brian"
