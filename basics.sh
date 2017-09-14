@@ -74,6 +74,9 @@ echo $((1+1))
 # generate strings from A to Z
 echo {A..Z}
 
+# Just wanted to say Hello World!
+echo "Hello World!"
+
 # print out the first ten lines of a file
 # you can also use the -n option to specify how many lines you want 
 head original.txt
