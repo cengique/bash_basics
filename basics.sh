@@ -77,6 +77,9 @@ echo {A..Z}
 # Just wanted to say Hello World!
 echo "Hello World!"
 
+# echo fire and brimstone
+echo "FIRE AND BRIMSTONE, THE 9 CIRCLES OF HELL"
+
 # print out the first ten lines of a file
 # you can also use the -n option to specify how many lines you want 
 head original.txt
