@@ -1,3 +1,9 @@
+curTime=$(date "+%H")
+if [ $curTime -lt 12 ]; then
+	echo "It is currently morning"
+	else
+	echo "It is no longer morning"
+	fi
 
 echo "What is the meaning of life?"
 read meaning
