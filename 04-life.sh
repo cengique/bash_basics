@@ -1,3 +1,9 @@
+t=$(date "+%H")
+if [ $t -lt 12 ]; then
+echo "It's morning"
+else
+echo "It's after morning"
+fi
 
 echo "What is the meaning of life?"
 read meaning
