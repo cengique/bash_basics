@@ -12,7 +12,7 @@ else
 fi
 
 if [ $time -lt 12 ]; then
-    echo "It is morning"
+	echo "It is morning"
 else
 	echo "It is not morning"
 fi
