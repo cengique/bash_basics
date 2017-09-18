@@ -8,14 +8,15 @@
 #else
   # echo "Still Smile :)"
 
-echo "Is it the weekend?"
+echo "Is it the freakin weekend?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Awesome!"
+    echo "Party!!!!"
 else
-   echo "Eh... well thats alright!"
-   
+    echo "Booooooo"
+
+
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
