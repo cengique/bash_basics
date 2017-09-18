@@ -15,11 +15,10 @@ fi
 # exercise: write a script that prints whether today is
 # the weekend or not
 
-day=`date +%A`
  
-if [ "$day" == "Saturday" ] || [ "$day" == "Sunday" ]; then
-	echo "It's the weekend!"
+if [[ $(date +%u) -lt 6 ]] ; then
+ 	echo "Hey Its a Weekday"
 else
-	echo "It's a weekday"
+ 	echo "Its a weekend! Go have fun."
 fi
  
