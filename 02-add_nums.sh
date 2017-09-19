@@ -1,14 +1,19 @@
 #!/bin/sh
 
-echo "Please enter a width"
+
+
+
+echo "enter a width"
 read first
-echo "Please enter a height"
+echo "enter a height"
 read second
+echo "enter a length"
+read third
 
+sum=$(( first*second*third ))
 
-sum=$(( first*second ))
+echo "The square pixels are $sum"
 
-echo "The number of pixels is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
