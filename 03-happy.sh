@@ -17,8 +17,7 @@ fi
 
 now="$(date +%u)"
 
-echo -e "\nToday is: $(date +%a)"
 if [ "$now" == 1 ] || [ "$now" == 2 ] || [ "$now" == 3 ]  || [ "$now" == 4 ]  || [ "$now" == 5 ] 
-	then echo -e "\nToday is the not the weekend!"
-else echo -e "\nToday is the weekend!"
+	then echo -e "\nToday is $(date +%a), and it is not the weekend! :("
+else echo -e "\nToday is $(date +%a), and it is the weekend! :)"
 fi
