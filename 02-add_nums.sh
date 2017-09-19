@@ -18,4 +18,5 @@ read width
 echo "Please enter the height:"
 read height
 numPixels=$((width * height))
+
 echo "The number of pixels is " $numPixels
