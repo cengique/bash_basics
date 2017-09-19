@@ -16,6 +16,7 @@ echo "The sum is $sum"
 
 echo "Enter width"
 read width
+
 echo "Enter height"
 read height
 
