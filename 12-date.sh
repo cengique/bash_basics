@@ -1,6 +1,6 @@
 #!/bin/bash
 
-now="$(date +%a)"
+now="$(date +%u)"
 
 if [ "$now" == "Mon" ]  
 then
