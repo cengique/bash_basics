@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+now="$(date +%u)"
+
+echo -e "\nToday is: $(date +%a)"
+if [ "$now" == 1 ] || [ "$now" == 2 ] || [ "$now" == 3 ]  || [ "$now" == 4 ]  || [ "$now" == 5 ] 
+	then echo -e "\nToday is the not the weekend!"
+else echo -e "\nToday is the weekend!"
+fi
