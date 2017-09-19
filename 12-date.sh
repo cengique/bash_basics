@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "What day is it today and is the weekend?"
 now="$(date +%u)"
 
 if [ "$now" == "1" ]
@@ -30,6 +31,7 @@ elif [ "$now" == "7" ]
  then
 	echo "Today is Sunday and the weekend!"	
 else
+	echo
 	echo "Today is nice day!"
 fi
 
