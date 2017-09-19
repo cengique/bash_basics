@@ -17,7 +17,7 @@ fi
 h=$(date '+%H')
 if [ $h -ge 3 ] && [ $h -le 13 ];
 	then
-	echo "It is Morning"
+	echo "It is morning"
 else
-	echo "It is not Morning"
+	echo "It is not morning"
 fi
