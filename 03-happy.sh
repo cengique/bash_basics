@@ -18,8 +18,12 @@
 echo "Is it the weekend?"
 read answer
 
+HEAD
 if [ "$answer" = "yes" ]; then
    echo "Yay!"
+
+if [ "$answer" = "no" ]; then
+   echo "Awesome!"
 else
    echo "Oh no!"
 fi
