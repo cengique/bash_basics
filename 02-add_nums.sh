@@ -11,5 +11,7 @@ sum=$(( first+second+third ))
 
 echo "The sum is $sum"
 
+echo "This is for the new branch"
+
 # exercise: ask the user for the width and height and present total
 # number of pixels
