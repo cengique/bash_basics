@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+echo "Is it before 12 or after?"
+read time
+    
+if [ "$time" == "before" ]; then
+    echo "It's morning!"
+else
+    echo "It's not morning!"
+fi
