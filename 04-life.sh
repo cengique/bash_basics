@@ -14,6 +14,7 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
 t=$(date '+%H')
 if [ $t -ge 3 ] && [ $t -le 13 ];
  then
