@@ -15,11 +15,11 @@
 # exercise: write a script that prints whether today is
 # the weekend or not
 
-echo "What day is it?"
+echo "Is it the weekend?"
 read answer
 
-if [ "$answer" = "saturday" || "sunday" ]; then
-   echo "It is the weekend"
+if [ "$answer" = "yes" ]; then
+   echo "Yay!"
 else
-   echo "It is not the weekend"
+   echo "Oh no!"
 fi
