@@ -18,7 +18,7 @@
 echo "Is it the weekend yet?"
 read answer
 
-if [ "$answer" = "yes" ]; then
+if [ "$answer" = "no" ]; then
    echo "Awesome!"
 else
    echo "That stinks"
