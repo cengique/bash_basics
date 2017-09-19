@@ -16,7 +16,7 @@ fi
 # morning or not
 echo "Is it before 12 or after?"
 read time
-
+    
 if [ "$time" == "before" ]; then
     echo "It's morning!"
 else
