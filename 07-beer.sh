@@ -6,6 +6,7 @@ read count
 
 while [ $count -ge 0 ]; do
   if [ $count -ge 2 ]; then
+      echo "There's lots of beer left! Let's all have a party!"
       echo "$count bottles of beer on the wall, $count bottles of beer"
       echo "Take one down pass it around"
   elif [ $count -eq 1 ]; then
