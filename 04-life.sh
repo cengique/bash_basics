@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+echo "Is it morning or not?"
+read time
+
+if [ "$time" -ne 17 ]; then
+    echo "It's not morning!"
+else
+    echo "It's morning!"
+fi
