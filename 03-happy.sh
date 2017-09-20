@@ -7,6 +7,17 @@ if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
    echo "Still Smile :)"
+	
+
+fi
+echo "Is it a weekend?"
+read answer
+if [ "$answer" = "yes" ]; then 
+
+	echo "Nice"
+
+else
+	echo "Still Smile :)"
 fi
 
 # here are the other string comparison operators
