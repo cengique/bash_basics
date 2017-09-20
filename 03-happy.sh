@@ -21,6 +21,6 @@ if [ "$dayOfWeek" = "Sunday" ]; then
     echo "It's a weekend!"
 else if [ "$dayOfWeek" = "Sunday" ]; then
     echo "It's a weekend!"
-fi
+else
     echo "It's a weekday..."
 fi
