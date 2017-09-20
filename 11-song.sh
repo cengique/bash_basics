@@ -4,7 +4,7 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do?(or Robert) (q to end) > " note
+   read -p "Do rae mi fa so la ti do? Or Sneaky (q to end) > " note
 
 case $note in
    # each case matches a pattern
@@ -26,8 +26,8 @@ case $note in
    la|La)
       echo "La a note that follow so"
       ;;
-  robert|Robert)
-      echo "This is my edit mate"
+    sneaky|Sneaky)
+      echo "Super sneaky addition"
       ;;
    ti|ta)
       echo "Tea I drink with jam and bread"
