@@ -4,13 +4,13 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "Do rae mi fa so la ti do? Or Sneaky (q to end) > " note
 
 case $note in
    # each case matches a pattern
    do|Do)
       echo "Doe a deer a female deer"
-      ;;   
+      ;;
    rae|Rae)
       echo "Ray a drop of golden sun"
       ;;
@@ -26,6 +26,9 @@ case $note in
    la|La)
       echo "La a note that follow so"
       ;;
+    sneaky|Sneaky)
+      echo "Super sneaky addition"
+      ;;
    ti|ta)
       echo "Tea I drink with jam and bread"
       ;;
@@ -33,7 +36,7 @@ case $note in
       echo "Hope you enjoyed the sound of music"
       exit 0
       ;;
-   *) 
+   *)
       echo "Not a note"
       ;;
 esac
