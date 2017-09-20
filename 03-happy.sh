@@ -13,7 +13,7 @@ fi
 echo "Is it a weekend?"
 read answer
 if [ "$answer" = "yes" ]; then 
-	echo "Nice"
+	echo "Great1"
 else
 	echo "Still Smile :)"
 fi
