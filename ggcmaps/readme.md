@@ -54,7 +54,7 @@ This project was started by [Mike Deiters et al](https://github.com/ggcmaps/ggcm
 #### Spring18:
 *Team name: JPAN
 *Repo location: https://github.com/soft-eng-practicum/ggcmaps
-*Process tool: Atom
+*Process tool: ATOM
 *Communication: https://ggc-dev.slack.com and https://ggcmaps.slack.com/
 1. Codjoe Jean-Paul Gamadeku: Client Liason/ Documentation Lead
 
