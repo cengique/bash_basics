@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hello, Luca"
+echo "Hello, Lucaa"
 #read name
 #echo "Welcome, $name"
 
