@@ -1,9 +1,9 @@
 #!/bin/bash
 # read the name of the user and print hello
 
-echo "Hello! What is your name"
+echo "Hello! codjoe gamadeku"
 read name
-echo "Welcome, $name"
+echo "Welcome, codjoe"
 
 # single quotes prevent the expansion of the variable
 echo 'Your name was stored in $name'
