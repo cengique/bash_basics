@@ -1,26 +1,15 @@
 #/bin/sh
 
-# function in bash
-
-function weekend_greet 
-{
-   echo "Enjoy the weekend! ${1}!"
-}
-
-function weekday_greet
-{
-   echo "Hope you are working hard, ${1}!"
-}
-
-
-echo "Please enter your name"
-read name
-
-day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
-
-if [ $day = "Sat" ] || [ $day = "Sun" ]; then
-   weekend_greet $name
+if [ -z "$1" ]
+then
+    name=`whoami`
 else
-   weekday_greet $name
+    name="$1"
 fi
 
+if [ `date +%Ou` -ge 6 ]
+then
+    printf "%s is finally in the weekend!\n" "$name"
+else
+    printf "Working hard, %s?\n" "$name"
+fi
