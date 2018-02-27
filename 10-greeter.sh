@@ -1,7 +1,11 @@
 #/bin/sh
 
-name=$(test -z "$1" && echo `whoami` || echo "$1")
-# minor gripe: echo/printf just to compute variables
+if [ -z "$1" ]
+then
+    name=`whoami`
+else
+    name="$1"
+fi
 
 if [ `date +%Ou` -gt 5 ]
 then
