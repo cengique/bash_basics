@@ -10,3 +10,4 @@ echo 'Your name was stored in $Gilad'
 
 # exercise: write a script that asks the user for a
 # filename and create an empty file named after it
+echo 'hello world'
