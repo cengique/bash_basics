@@ -7,6 +7,7 @@ echo "Welcome, $Gilad"
 
 # single quotes prevent the expansion of the variable
 echo 'Your name was stored in $Gilad'
-
+echo 'hello world'
+echo 'it is amazing'
 # exercise: write a script that asks the user for a
 # filename and create an empty file named after it
