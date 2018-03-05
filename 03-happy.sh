@@ -4,9 +4,9 @@ echo "You are happy?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+   echo "Smile :)You have a good life ahead!!"
 else
-   echo "Still Smile :)"
+   echo "Still Smile :)Something special is going to happen in your life tommorow!!"
 fi
 
 # here are the other string comparison operators

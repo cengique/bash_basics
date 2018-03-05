@@ -6,6 +6,7 @@ echo "Please give a numeric answer"
 read grade
 
 if [ $grade -ge 90 ]; then
+
    echo "Hello!!You got an A. Nice."
 elif [ $grade -ge 80 ]; then
    echo "Hello!!You got a B. That's good."
@@ -13,6 +14,15 @@ elif [ $grade -ge 70 ]; then
    echo "Hello!!You got a C. Not bad."
 else
    echo "Hello!!Time to work on some extra credit assignments"
+
+   
+elif [ $grade -ge 80 ]; then
+   echo "HEY!!You got a B. That's good."
+elif [ $grade -ge 70 ]; then
+   echo "HEY!!You got a C. Not bad."
+else
+   echo "HEY!!Time to work on some extra credit assignments"
+>>>>>>> master
 fi
 
 # exercise: write a script (that utilizes weather-util) 
