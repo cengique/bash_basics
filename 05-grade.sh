@@ -1,18 +1,18 @@
 #!/bin/sh
 
 
-echo "What did you get in the first ITEC 3860 test?"
+echo "What did you get in the first ITEC 3860 tests?"
 echo "Please give a numeric answer"
 read grade
 
 if [ $grade -ge 90 ]; then
-   echo "You got an A. Nice."
+   echo "HEY!!You got an A. Nice."
 elif [ $grade -ge 80 ]; then
-   echo "You got a B. That's good."
+   echo "HEY!!You got a B. That's good."
 elif [ $grade -ge 70 ]; then
-   echo "You got a C. Not bad."
+   echo "HEY!!You got a C. Not bad."
 else
-   echo "Time to work on some extra credit assignments"
+   echo "HEY!!Time to work on some extra credit assignments"
 fi
 
 # exercise: write a script (that utilizes weather-util) 
