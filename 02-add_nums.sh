@@ -1,14 +1,17 @@
 #!/bin/sh
 
-echo "Enter a length"
+
+echo "Enter length"
 read length
-echo "Enter a width"
+echo "Enter width"
 read width
+echo "Enter height"
+read height
 
+volume=$(( length*width*height ))
 
-area=$(( length*width ))
+echo "The volume is $volume"
 
-echo "The area is $area"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
