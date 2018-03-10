@@ -1,11 +1,11 @@
 #!/bin/sh
 
 echo "Enter pixel width"
-read first
+read width
 echo "Enter pixel height"
-read second
+read height
 
-sum=$(( first+second ))
+sum=$(( width+height ))
 
 echo "The total number of pixels are $sum"
 
