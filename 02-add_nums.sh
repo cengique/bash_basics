@@ -18,6 +18,7 @@ read height
 
 pixels=$(( width*height))
 
+
 echo "There are $pixels pixels total."
 
 # exercise: ask the user for the width and height and present total
