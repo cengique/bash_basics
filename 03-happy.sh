@@ -16,7 +16,9 @@ fi
  echo "Is today the weekend?"
  read answer
 	if [ "$answer" = "yes" ]; then
-		echo "Have a great one!"
+
+		echo "Enjoy your two days of freedom!"
+
 	else
 		echo "It's okay you're almost there!"
 fi 
