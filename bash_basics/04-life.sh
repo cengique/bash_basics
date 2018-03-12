@@ -9,6 +9,17 @@ else
    echo "Awww... You don't know the meaning of life"
 fi
 
+#morning script
+echo "where is the sun location in the sky?"
+read location
+
+
+if [ "$location" == east ]; then
+echo "Yes!, It's morning time!"
+else
+echo "Try again.."
+fi
+
 #  here are some other arithemetic comparison operators
 # -eq -ne -gt -ge -lt -le
 
