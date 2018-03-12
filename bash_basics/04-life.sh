@@ -10,11 +10,11 @@ else
 fi
 
 #morning script
-echo "where is the sun location in the sky?"
+echo "where is the sun location in the blue sky?"
 read location
 
 
-if [ "$location" == east ]; then
+if [ "$location" == west ]; then
 echo "Yes!, It's morning time!"
 else
 echo "Try again.."
