@@ -14,3 +14,13 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+echo "Tell me if it is morning or not please"
+read morning
+
+if [ "$morning" != "morning" ]; then
+    echo "Well, I'm going back to bed"
+else
+    echo "Rise and Shine sweetheart!"
+fi
+
