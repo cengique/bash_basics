@@ -14,6 +14,7 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Katrina's added Notes:
 # String comparison
