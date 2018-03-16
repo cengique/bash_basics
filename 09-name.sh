@@ -9,4 +9,5 @@ for server in $servers; do
     echo "----------------------------"
 done
 
+
 echo "Hello";
