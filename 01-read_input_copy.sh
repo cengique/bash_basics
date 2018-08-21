@@ -2,7 +2,7 @@
 # read the name of the user and print hello
 
 
-echo "Hello, what is your name?"
+echo "Hello, my name is Lindsey Wade. What is your name?"
 read name
 echo "Welcome $name, it is nice to meet you!"
 
