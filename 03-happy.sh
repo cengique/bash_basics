@@ -5,6 +5,8 @@ read answer
 
 if [ "$answer" = "yes" ]; then
    echo "Smile :)"
+else if [ "$answer" = "no" ]; then
+  echo "Sorry that you are not happy. But Still Smile :)"
 else
    echo "Still Smile :)"
 fi
@@ -14,3 +16,9 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+echo "Is it the weekend?"
+if [ "$answer" = "yes" ]; then
+  echo "Yay! No School! :)"
+else
+  echo "Got to wake up early! :)"
+fi
