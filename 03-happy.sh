@@ -5,8 +5,6 @@ read answer
 
 if [ "$answer" = "yes" ]; then
    echo "Smile :)"
-else if [ "$answer" = "no" ]; then
-  echo "Sorry that you are not happy. But Still Smile :)"
 else
    echo "Still Smile :)"
 fi
