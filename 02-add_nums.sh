@@ -19,6 +19,6 @@ read height
 echo "What is the width of your computer screen"
 read width
 
-sum=$((height + width))
+sum=$((height * width))
 
 echo "The number of pixels is $sum"
