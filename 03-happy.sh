@@ -6,7 +6,7 @@ read answer
 if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
-   echo "Still Smile :)"
+   echo "Just Still Smile :)"
 fi
 
 # here are the other string comparison operators
@@ -14,9 +14,3 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
-echo "Is it the weekend?"
-if [ "$answer" = "yes" ]; then
-  echo "Yay! No School! :)"
-else
-  echo "Got to wake up early! :)"
-fi
