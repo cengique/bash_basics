@@ -8,6 +8,15 @@ if [ "$answer" = "yes" ]; then
 else
    echo "Still Smile :)"
 fi
+echo "You are hungry?"
+read answer
+
+if [ "$answer" = "yes" ]; then
+   echo "eat :)"
+else
+   echo "still eat some more :)"   
+
+fi
 
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
