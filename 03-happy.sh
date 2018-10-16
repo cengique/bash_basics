@@ -9,13 +9,13 @@ else
    echo "Still Smile :)"
 fi
 
-echo "You are hungry?"
+echo "You are sad?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "eat more :)"
+   echo "dont cry :)"
 else
-   echo "Still eat some more :)"
+   echo "keep on smiling :)"
 fi
 
 # here are the other string comparison operators
