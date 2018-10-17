@@ -18,6 +18,15 @@ else
 
 fi
 
+echo "You are sad?"
+read answer
+
+if [ "$answer" = "yes" ]; then
+   echo "dont cry :)"
+else
+   echo "keep on smiling :)"
+fi
+
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
