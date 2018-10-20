@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Let's sing a beer song"
-echo "How many bottles?"
+echo "How many bottles on the wall?"
 read count
 
 while [ $count -ge 0 ]; do
