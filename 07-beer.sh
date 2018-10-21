@@ -40,7 +40,7 @@ while [ $count -ge 0 ]; do
       echo "$count monkey's jumping on the bed, 1 fell off and bumped his head"
       echo "Now theres $(($count-1)) monkeys jumping on the bed "
   else
-      echo "no more monkeys jumping on the bed"
+      echo "no more monkeys jumping on the bed...they are dead go home."
   fi
   
   # the following statement is equivalent to: let "count=count-1"
