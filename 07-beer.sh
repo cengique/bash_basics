@@ -20,5 +20,42 @@ while [ $count -ge 0 ]; do
 
 done
 
+echo "12 Days of Christmas"
+echo "What number of day?"
+read day
+echo "On the $day day of Christmas
+my true love sent to me:"
+while [ $day -ge 0 ]; do
+	
+	if [ $day -eq 12 ]; then
+		echo "12 Drummers Drumming"
+	elif [ $day -eq 11 ]; then
+		echo "11 Pipers Piping"
+	elif [ $day -eq 10 ]; then
+		echo "10 Lords a Leaping"
+	elif [ $day -eq 9 ]; then
+		echo "9 Ladies Dancing"
+	elif [ $day -eq 8 ]; then
+		echo "8 Maids a Milking"
+	elif [ $day -eq 7 ]; then
+		echo "7 Swans a Swimming"
+	elif [ $day -eq 6 ]; then
+		echo "6 Geese a Laying"
+	elif [ $day -eq 5 ]; then
+		echo "5 Golden Rings"
+	elif [ $day -eq 4 ]; then
+		echo "4 Calling Birds"
+	elif [ $day -eq 3 ]; then
+		echo "3 French Hens"
+	elif [ $day -eq 2 ]; then
+		echo "2 Turtle Doves"
+	elif [ $day -eq 1 ]; then
+		echo "and a Partridge in a Pear Tree"
+	else
+		echo "Merry Christmas!"
+	fi
+	
+	((day = day - 1))
+done
 # exercise: implement another counting song (such as 12 days of Christmas) 
 # using loops and if statements.
