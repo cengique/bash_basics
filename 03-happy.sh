@@ -3,12 +3,13 @@
 now=`date '+%A'`
 echo "Current date: $now"
 if [[ $now = "Saturday" || $now = "Sunday" ]]; then
-	echo "It's the weekend!"
+
+	echo "It's the weekend, CELEBRATE!"
 else
-	echo "It's not the weekend :("
+	echo "It's not the weekend, BOO! :["
 fi
 
-echo "Are you happy?"
+echo "You are happy?"
 read answer
 
 if [ "$answer" = "yes" ]; then
