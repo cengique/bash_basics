@@ -1,3 +1,4 @@
+#This is an edit for Assignment 6
 
 echo "What is the meaning of life?"
 read meaning
