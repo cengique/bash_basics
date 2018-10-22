@@ -1,3 +1,4 @@
+#This is a comment for Assignment 6
 
 echo "What is the meaning of life?"
 read meaning
