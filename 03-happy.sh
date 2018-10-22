@@ -1,7 +1,7 @@
 #!/bin/sh
 
  if [[ $(date +%u) -gt 5 ]] ; then
- echo weekend
+ echo "It's the weekend"
  fi
 
 # here are the other string comparison operators
