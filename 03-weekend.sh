@@ -4,9 +4,9 @@ echo "Is today saturday or sunday?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "It is the weekend!"
+   echo "It is the weekend"
 else
-   echo "It is not the weekend."
+   echo "It is not the weekend"
 fi
 
 # here are the other string comparison operators
