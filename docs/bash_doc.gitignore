@@ -1,0 +1,16 @@
+#Source: https://www.linux.com/learn/writing-simple-bash-script
+#begin all bash scripts with this
+
+#!/bin/bash
+
+#to ensure that your file has read and write permission as necessary
+
+ls -lh scriptname and you'll see something like this:
+-rwx------ 1 jzb jzb   21 2010-02-01 03:08 echo
+ #declare permission explicitly by using the chmod + filename
+
+  chmod +x 00_adefemi-echo_message.sh 
+  #declare write permission 
+
+  sh 00_adefemi-echo_message.sh
+  #run script accordingly
