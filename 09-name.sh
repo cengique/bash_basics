@@ -12,8 +12,7 @@ done
 # exercise: Change the list of servers and also the 
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
-
-for server in reddit.com youtube.com stackoverflow.com; do
+for server in bing.com microsoft.com msn.com; do
     ping $server
-    echo "----------------------------"
+    echo "----------y-o-l-o-----------"
 done
