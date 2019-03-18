@@ -9,6 +9,15 @@ else
    echo "Awww... You don't know the meaning of life"
 fi
 
+echo "Is it morning? Type 1 if it is morning"
+read answer
+
+if [ "$answer" -ne 1 ]; then
+	echo "It's not morning"
+else
+	echo "It is morning"
+fi 
+
 #  here are some other arithemetic comparison operators
 # -eq -ne -gt -ge -lt -le
 
