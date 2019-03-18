@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+echo "What is the current time?"
+read time
+
+
+if [ "$time" -ge 12]; then
+   echo "Its afternoon"
+else
+   echo "Its still morning"
+fi
