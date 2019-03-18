@@ -23,3 +23,4 @@ if ["$meaning" -lt 12]; then
 else 
 	echo "Its Afternoon"
 fi
+
