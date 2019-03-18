@@ -23,3 +23,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+echo "Press 2 if morning"
+read answer
+
+if [ "$answer" -ne 2 ]; then
+	echo "It is not morning"
+else
+	echo "It is morning"
+fi
