@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# This is a comment in the program because I need to make more changes
+
 echo "Enter a width"
 read width
 echo "Enter a height"
