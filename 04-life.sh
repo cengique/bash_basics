@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+echo "What time is it"
+read time
+
+if ["$meaning" -lt 12]; then 
+	echo "It is morning"
+else 
+	echo "Its Afternoon"
+fi
