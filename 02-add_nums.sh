@@ -9,8 +9,10 @@ read third
 echo "Enter your fourth number"
 read fourth
 
+
 sum=$(( first+second+third+fourth ))
 multiply=$(( first*second*third*fourth ))
+
 
 echo "The sum is $sum"
 echo "The product is $multiply"
