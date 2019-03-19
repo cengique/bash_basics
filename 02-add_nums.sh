@@ -7,6 +7,7 @@ read width
 echo "Enter a height in pixels"
 read height
 
+echo "Calculating..."
 area=$((width * height))
 
 echo "It is $area pixels in area"
