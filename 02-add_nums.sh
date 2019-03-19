@@ -6,10 +6,14 @@ echo "Enter your second number"
 read second
 echo "Enter your third number"
 read third
+echo "Enter your fourth number"
+read fourth
 
-sum=$(( first+second+third ))
+sum=$(( first+second+third+fourth ))
+multiply=$(( first*second*third*fourth ))
 
 echo "The sum is $sum"
+echo "The product is $multiply"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
