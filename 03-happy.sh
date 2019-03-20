@@ -15,7 +15,8 @@ fi
 # exercise: write a script that prints whether today is
 # the weekend or not
 
-echo "Whats today ?"
+
+echo "What is today ?"
 read answer
 
 if [ "$answer" = "Sat" ] || [ "answer" = "Sun" ]; then
