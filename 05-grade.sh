@@ -19,3 +19,13 @@ fi
 # that prints "it's cold" if the temperature is < 40
 # it's chilly if < 60, it's okay if < 70 and, it's hot for 
 # everything else
+
+if [ $temperature < 40 ]; then
+   echo "it's cold."
+elif [ $temperature < 60 ]; then
+   echo "it's chilly."
+elif [ $grade < 70 ]; then
+   echo "it's okay."
+else
+   echo "it's hot"
+fi
