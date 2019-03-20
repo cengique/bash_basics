@@ -26,9 +26,9 @@ read temp
 
 if [ $temp -le 40 ]; then
    echo "it's cold"
-elif [ $grade -le 60 ]; then
+elif [ $temp -le 60 ]; then
    echo "it's chilly"
-elif [ $grade -le 70 ]; then
+elif [ $temp -le 70 ]; then
    echo "it's okay"
 else
    echo "it's hot"
