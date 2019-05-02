@@ -2,7 +2,9 @@
 
 # look up ip addresses of various search engines
 
+
 servers="youtube.com reddit.com github.com"
+
 
 for server in $servers; do
     ping $server
