@@ -30,12 +30,12 @@ read count
 
 while [ $count -ge 0 ]; do
   if [ $count -ge 2 ]; then
-      echo "$What shall we do with a drunken sailor,
+      echo "What shall we do with a drunken sailor,
       What shall we do with a drunken sailor,
       What shall we do with a drunken sailor,"
       echo "Early in the morning"
   elif [ $count -eq 1 ]; then
-       echo "$What shall we do with a drunken sailor,
+       echo "What shall we do with a drunken sailor,
       What shall we do with a drunken sailor,
       What shall we do with a drunken sailor,"
       echo "Early in the morning"
