@@ -24,19 +24,5 @@ if [ "$answer" = "yes" ]; then
   echo "booooooo!!! :("
 fi
 =======
-
-echo "Is today the weekend?"
-
-read answer
-
-if [ "$answer" = "yes" ]; then
-
-   echo "Yay!! :)"
-
-else if [ "$answer" = "no" ]; then
-
-   echo "Boooo :("
-
-fi
 done
 >>>>>>> eb13ca58111c5f4920832dfd48ace9c1be022fdb
