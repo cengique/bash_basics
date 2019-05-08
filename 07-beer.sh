@@ -24,26 +24,27 @@ done
 # using loops and if statements.
 
 
-echo "Let's sing a beer song"
-echo "How many bottles?"
-read count
+echo "Let's The 12 Days of Christmas"
+for i in 1 2 3 
+do
+      echo "On the $i day of Christmas my true love sent to me
+A partridge in a pear tree."
 
-while [ $count -ge 0 ]; do
-  if [ $count -ge 2 ]; then
-      echo "$What shall we do with a drunken sailor,
-      What shall we do with a drunken sailor,
-      What shall we do with a drunken sailor,"
-      echo "Early in the morning"
-  elif [ $count -eq 1 ]; then
-       echo "$What shall we do with a drunken sailor,
-      What shall we do with a drunken sailor,
-      What shall we do with a drunken sailor,"
-      echo "Early in the morning"
-  else
-      echo "chuck him in the long boat 'til he's sober"
+then
+echo "On the $i day of Christmas my true love sent to me
+Two turtle doves,
+And a partridge in a pear tree."
+
+then
+
+echo "On the $i day of Christmas my true love sent to me
+Three French hens,
+Two turtle doves,
+And a partridge in a pear tree. "
+
+
   fi
   
   # the following statement is equivalent to: let "count=count-1"
-  ((count = count - 1))
 
 done
