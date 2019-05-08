@@ -8,7 +8,7 @@ if [ "$answer" = "yes" ]; then
 else
    echo "Still Smile :)"
 fi
-
+done
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
@@ -28,3 +28,4 @@ else if [ "$answer" = "no" ]; then
    echo "Boooo :("
 
 fi
+done
