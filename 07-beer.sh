@@ -25,24 +25,23 @@ done
 
 
 echo "Let's The 12 Days of Christmas"
-echo "How many bottles?"
 for i in 1 2 3 
 do
       echo "On the $i day of Christmas my true love sent to me
 A partridge in a pear tree."
-i++
+
 then
 echo "On the $i day of Christmas my true love sent to me
 Two turtle doves,
 And a partridge in a pear tree."
-i++
+
 then
 
 echo "On the $i day of Christmas my true love sent to me
 Three French hens,
 Two turtle doves,
 And a partridge in a pear tree. "
-i++
+
 
   fi
   
