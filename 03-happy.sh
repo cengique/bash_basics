@@ -19,7 +19,8 @@ echo "IS today the Weekend?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Booooooo!!! :("
-else
    echo "YAAAY!!! :)"
+else
+   echo "Booooooo!!! :("
 fi
+ 
