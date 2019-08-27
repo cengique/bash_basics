@@ -17,4 +17,3 @@ read filename
 echo "Creating $filename ..."
 touch $filename
 echo "File created: $filename"
-ls
