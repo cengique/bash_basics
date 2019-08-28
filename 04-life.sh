@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+echo "Is it the morning?"
+read input
+
+if [ "$input" -eq 45 ]; then
+   echo "Oh my! It is the morning!"
+else 
+   echo "Oh no!! It's not!"
+fi
