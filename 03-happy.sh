@@ -14,3 +14,6 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+perl -le 'my $wday = (localtime)[6];
+            print $wday >= 1 && $wday <= 5 ? "Keep going, youre almost there!"
+            : "Its time to party for the weekend!"'
