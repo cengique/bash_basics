@@ -18,16 +18,9 @@ fi
 echo "What day is it today? (ex: monday, tuesday, wednesday, thursday, friday, saturday, sunday)"
 read week
 
-if  [ "$week" = "monday" ]; then
-    echo "It is not the weekend yet"
-elif [ "$week" = "tuesday" ]; then
-    echo "It is not the weekend yet"
-elif [ "$week" = "wednesday" ]; then
-    echo "It is not the weekend yet"
-elif [ "$week" = "thursday" ]; then
-    echo "It is not the weekend yet"
-elif [ "$week" = "friday" ]; then
-    echo "It is not the weekend yet"
+if  [ "$week" = "monday" ] || [ "$week" = "tuesday" ] || [ "$week" = "wednesday" ] || [ "$week" = "thursday" ] || [ "$week" = "friday" ]; then
+    echo "Boo! I hate Mondays. And Tuesdays. I'm not a fan of Wednesdays. Now that you mention it, Thursdays suck, too. Fridays and good."
+
 else 
-    echo "It's the weekend!!"
+    echo "Whew! I survived!!!!"
 fi
