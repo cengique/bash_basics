@@ -19,8 +19,8 @@ echo "What day is it today? (ex: monday, tuesday, wednesday, thursday, friday, s
 read week
 
 if  [ "$week" = "monday" ] || [ "$week" = "tuesday" ] || [ "$week" = "wednesday" ] || [ "$week" = "thursday" ] || [ "$week" = "friday" ]; then
-    echo "Boo! I hate Mondays. And Tuesdays. I'm not a fan of Wednesdays. Now that you mention it, Thursdays suck, too. Fridays and good."
+    echo "Its not the weekend :c"
 
 else 
-    echo "Whew! I survived!!!!"
+    echo "its the weekend!!!!"
 fi
