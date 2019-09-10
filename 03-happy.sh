@@ -18,6 +18,8 @@ fi
 day=$(date | cut -d' ' -f1)
 if [ $day = "Sat" ] || [ $day = "Sun" ]; then
    echo "Today is the weekend!"
+   echo "So Smile! :)" 
 else
    echo "Today is not the weekend." 
+   echo "Still Smile! :)" 
 fi
