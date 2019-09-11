@@ -1,12 +1,21 @@
 #!/bin/sh
 
-echo "You are happy?"
-read answer
+#echo "You are happy?"
+#read answer
 
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+#if [ "$answer" = "yes" ]; then
+  # echo "Smile :)"
+#else
+  # echo "Still Smile :)"
+#fi
+
+echo "Today's date is: $(date)"
+day=$(date +"%u")
+
+if ((day > 5)); then
+   echo "Weekend :)"        
 else
-   echo "Still Smile :)"
+   echo "Weekday :/"
 fi
 
 # here are the other string comparison operators
