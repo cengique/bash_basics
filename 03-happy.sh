@@ -1,13 +1,30 @@
 #!/bin/sh
+echo "Today's date is: $(date)"
+day=$(date +"%u")
 
-echo "You are happy?"
-read answer
-
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+if ((day > 5)); then
+   echo "Weekend"        
 else
-   echo "Still Smile :)"
+   echo "Weekday"
 fi
+#echo "You are happy?"
+#read answer
+
+#if [ "$answer" = "yes" ]; then
+   #echo "Smile :)"
+
+#else
+   #echo "Still Smile :)"
+#fi
+
+
+
+#if [[ date == *"Fri"*  || *"Sat"* || *"Sun"* ]];
+ # echo "It's the weekend!"
+
+#else 
+#	echo "Nah"
+#fi
 
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
