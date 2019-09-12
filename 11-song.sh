@@ -11,8 +11,8 @@ case $note in
    do|15)
       echo "5 + 10"
       ;;   
-   rae|7)
-      echo "5 + 2"
+   rae|13)
+      echo "5 + 8 hi"
       ;;
    mi|Mi)
       echo "Me a name a call myself"
