@@ -12,7 +12,10 @@ case $note in
       echo "5 + 10"
       ;;   
    rae|7)
-      echo "5 + 2 hi"
+      echo "5 + 2"
+      ;;
+   rae|13)
+      echo "5 + 8"
       ;;
    mi|Mi)
       echo "Me a name a call myself"
