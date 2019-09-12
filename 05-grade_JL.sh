@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 echo "What did you get in the first ITEC 3860 test?"
 echo "Please give a numeric answer"
 read grade
