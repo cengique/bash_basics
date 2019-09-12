@@ -7,12 +7,12 @@ while [ true ]; do
    read -p "Do rae mi fa so la ti do? (q to end) > " note
 
 case $note in
-   # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   # each case has an answer
+   do|15)
+      echo "5 + 10"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   rae|7)
+      echo "5 + 2"
       ;;
    mi|Mi)
       echo "Me a name a call myself"
