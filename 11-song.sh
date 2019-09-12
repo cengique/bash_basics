@@ -4,7 +4,7 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "Try playing each sound : Do rae mi fa so la ti do? (q to end) > " note
 
 case $note in
    # each case matches a pattern
