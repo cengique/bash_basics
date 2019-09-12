@@ -18,4 +18,4 @@ echo "Enter width"
 read width
 echo "Enter height"
 read height
-echo "Present total number of pixels: $((width * height))"
+echo "The total number of pixels is: $((width * height))"
