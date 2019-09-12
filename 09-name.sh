@@ -2,12 +2,12 @@
 
 # look up ip addresses of various search engines
 
-servers="yahoo.com google.com dogpile.com wolframalpha.com"
+# servers="yahoo.com google.com dogpile.com wolframalpha.com"
 
-for server in $servers; do
-    nslookup $server
-    echo "----------------------------"
-done
+# for server in $servers; do
+#     nslookup $server
+#     echo "----------------------------"
+# done
 
 # exercise: Change the list of servers and also the 
 # operation applied to them. For instance, use ping, 
@@ -21,5 +21,9 @@ for server in $servers; do
     tracert $server
     echo "----------------------------"
     nslookup -querytype=mx $server
+    echo "----------------------------"
+    nslookup -type=ns $server
+    echo "----------------------------"
+    nslookup -type=soa $server
     echo "----------------------------"
 done
