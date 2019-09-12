@@ -18,4 +18,4 @@ echo "Creating $filename ..."
 touch $filename
 echo "$filename creted"
 ls
-echo "Bye,bye, I made you a file, baby birds."
+echo "Bye,bye, I made you a file, baby birds. Merge resolved."
