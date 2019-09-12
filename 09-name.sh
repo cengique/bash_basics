@@ -12,3 +12,14 @@ done
 # exercise: Change the list of servers and also the 
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
+
+servers="inlinewarehouse.com sap.com reddit.com"
+​
+for server in $servers; do
+    nslookup -querytype=mx $server
+    echo "----------------------------"
+    nslookup -type=ns $server
+    echo "----------------------------"
+    nslookup -type=soa $server
+    echo "----------------------------"
+done
