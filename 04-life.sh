@@ -14,3 +14,14 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+
+TZ="America/New_York"
+date
+
+if [ date = "am" ]; then 
+  echo "It's morning!"; 
+  else echo "It's not morning!"; 
+
+fi
+
