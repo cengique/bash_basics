@@ -13,3 +13,5 @@ echo "The multiplication of three numbers is $multiply"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
+
+THIS IS MASTER MESSAGE
