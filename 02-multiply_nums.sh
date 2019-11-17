@@ -7,9 +7,9 @@ read second
 echo "Enter your third number"
 read third
 
-multiply=$((first)(second)(third)))
+multiply=$(($first * $second * $third))
 
-echo "The sum is $multiply"
+echo "The multiplication of three numbers is $multiply"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
