@@ -32,7 +32,7 @@ cd ~  # cd works as well
 touch original.txt
 
 # concatenate and print file
-cat original.txt
+cat original.txtcom 
 
 # copy file
 cp original.txt copy.txt
