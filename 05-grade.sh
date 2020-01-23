@@ -29,7 +29,7 @@ if [ $answer -le 40 ]; then
 elif [ $answer -le 60 ]; then
    echo "it's chilly"
 elif [ $answer -le 70 ]; then
-   echo "it's hot"
+   echo "it's okay!"
 else
    echo "it's hot"
 fi
