@@ -24,12 +24,12 @@ echo "What is the current temperature?"
 echo "Please give a numeric answer"
 read answer
 
-if [ $answer -ge 70 ]; then
-   echo "It's hot"
-elif [ $grade -ge 60 ]; then
+if [ $answer -le 40 ]; then
+   echo "It's cold"
+elif [ $answer -le 60 ]; then
    echo "it's chilly"
-elif [ $grade -ge 40 ]; then
-   echo "it's cold"
+elif [ $answer -le 70 ]; then
+   echo "it's hot"
 else
    echo "it's hot"
 fi
