@@ -14,3 +14,8 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+if [ $(date +%H) -ge 5 ] && [ $(date +%H) -le 9 ]; then
+echo "Yes! is is morning time!"
+else
+echo "Nope! Its Hour" $(date +%H)
+fi
