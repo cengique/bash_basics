@@ -26,13 +26,13 @@ echo "Please give a numeric answer"
 
 read answer
 
-if [ $answer -le 40 ]; then
-   echo "It's cold"
+if [ $answer -le 41 ]; then
+   echo "It's cold!"
 
-elif [ $answer -le 60 ]; then
-   echo "it's chilly"
+elif [ $answer -le 61 ]; then
+   echo "it's chilly!"
 
-elif [ $answer -le 70 ]; then
+elif [ $answer -le 71 ]; then
    echo "it's okay!!!"
 
 else
