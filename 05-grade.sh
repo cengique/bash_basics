@@ -21,15 +21,20 @@ fi
 # everything else
 
 echo "What is the current temperature?"
+
 echo "Please give a numeric answer"
+
 read answer
 
 if [ $answer -le 40 ]; then
    echo "It's cold"
+
 elif [ $answer -le 60 ]; then
    echo "it's chilly"
+
 elif [ $answer -le 70 ]; then
-   echo "it's okay!"
+   echo "it's okay!!!"
+
 else
    echo "it's hot"
 fi
