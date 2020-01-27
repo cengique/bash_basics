@@ -4,33 +4,33 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
-
+   read -p "od ear im af os al it od? (q to end) > " note
+            
 case $note in
    # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   od|Od)
+      echo "you are an odd one"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   ear|Ear)
+      echo "do you listen to thy ear"
       ;;
-   mi|Mi)
-      echo "Me a name a call myself"
+   im|Im)
+      echo "I'm a rock-star!"
       ;;
-   fa|Fa)
-      echo "Far a long long way to run"
+   af|Af)
+      echo "You are down to earth af"
       ;;
-   so|So)
-      echo "So a note that follows fa"
+   os|Os)
+      echo "I win an Oscar you win an oscar!"
       ;;
-   la|La)
-      echo "La a note that follow so"
+   al|Al)
+      echo "Full metal Alchemist!"
       ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
+   it|It)
+      echo "You have the it factor"
       ;;
    q)
-      echo "Hope you enjoyed the sound of music"
+      echo "Hope you enjoy the insights"
       exit 0
       ;;
    *) 
