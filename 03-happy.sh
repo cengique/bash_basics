@@ -14,3 +14,21 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+function is_weekend 
+{
+   echo "Hooray!! It's the weekend!!"
+}
+
+function not_weekend
+{
+	echo "It's not the weekend. :("
+}
+
+day=$(date | cut -d' ' -f1)
+if [ $day = "Sat" ] || [ $day = "Sun" ]; then
+   is_weekend
+else
+   not_weekend
+fi
+
