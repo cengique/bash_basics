@@ -3,7 +3,6 @@
 # the if statement had, if-then-fi
 # while loop has, while-do-done
 # true and false are also Unix commands
-
 printf "Please enter a domain name: "
 read address
 counter=1
