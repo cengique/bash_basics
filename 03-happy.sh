@@ -17,12 +17,12 @@ fi
 
 function weekend 
 {
-   echo "The weekend is here!! :)"
+   echo "Weekend"
 }
 
 function no_weekend
 {
-	echo "Sorry, no weekend for u. :0"
+	echo "No weekend."
 }
 
 day=$(date | cut -d' ' -f1)
