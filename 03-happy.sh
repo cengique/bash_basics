@@ -31,4 +31,3 @@ if [ $day = "Sat" ] || [ $day = "Sun" ]; then
 else
    not_weekend
 fi
-
