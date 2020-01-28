@@ -7,6 +7,7 @@ if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
    echo "Sandy will Smile for you :)"
+   echo "This assignment rocks!!"
 fi
 
 # here are the other string comparison operators
