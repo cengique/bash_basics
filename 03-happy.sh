@@ -9,8 +9,6 @@ else
    echo "Still Smile :)"
 fi
 
-
-
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
