@@ -5,11 +5,7 @@
 servers="amazon.com ebay.com cnn.com altervista.org"
 
 for server in $servers; do
-<<<<<<< Updated upstream
     traceroute $server
-=======
-    nslookup $server
->>>>>>> Stashed changes
     echo "----------------------------"
 done
 
