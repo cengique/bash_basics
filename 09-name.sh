@@ -5,7 +5,7 @@
 servers="amazon.com ebay.com cnn.com altervista.org"
 
 for server in $servers; do
-    traceroute $server
+    ping $server
     echo "----------------------------"
 done
 
