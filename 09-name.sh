@@ -5,7 +5,7 @@
 servers="github.com altervista.org amazon.com ebay.com"
 
 for server in $servers; do
-    ping $server
+    nslookup $server
     echo "----------------------------"
 done
 
