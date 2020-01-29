@@ -1,11 +1,11 @@
 #!/bin/sh
 
+echo "Enter the width
+read width
 echo "Enter the height"
 read height
-echo "Enter the width"
-read width
 
-pixels=$(( height*width ))
+pixels=$(( width*height ))
 
 echo "The number of pixels is $pixels"
 
