@@ -10,7 +10,7 @@ echo "Where do you study?"
 read college
 
 # single quotes prevent the expansion of the variable
-echo 'Your name was stored in "Francisco.sh"'
+echo 'Your name was stored in "Francisco2.sh"'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
