@@ -14,11 +14,14 @@
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
+#added resolution height input
 echo "Enter resolution height"
 read height
+
+#added resolution width input
 echo "Now enter resolution width"
 read width
 
-resolution=$(( height*width ))
+resolution=$(( height * width ))
 
 echo "The resolution is $resolution"
