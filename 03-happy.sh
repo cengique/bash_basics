@@ -9,9 +9,9 @@
 #    echo "Still Smile :)"
 if [[ $(date +%u) -gt 5 ]]
 then
-  echo "It is the Weekend!"
+  echo "It is the Weekend!!!"
 else
-  echo "It is a weekday..."
+  echo "It is a weekday."
 fi
 
 # here are the other string comparison operators
