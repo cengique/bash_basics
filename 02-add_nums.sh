@@ -23,3 +23,4 @@ read height
 sum1=$(( width * height))
 
 echo "Number of pixels is $sum1"
+
