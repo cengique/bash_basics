@@ -16,7 +16,7 @@ echo "The sum is $sum"
 
 echo "Hello! What width would you like your picture to be today?"
 read width
-echo "And what'll the height be?"
+echo "And what'll the picture's height be?"
 read height
 total=$((width * height))
 echo "Congratulations! Your total number of pixels is $total!"
