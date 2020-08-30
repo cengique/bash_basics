@@ -14,7 +14,7 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
-echo 
+echo
 echo "What day is it?"
 read answer
 
