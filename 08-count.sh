@@ -13,5 +13,11 @@ for file in *.sh; do
     echo "$file has $lines lines"
 done
 
+for file in *.sh; do
+	grep -w 'command' README.md
+	grep -w 'Todo' README.md
+	grep -w 'explanation' README.md
+done
+
 # exercise: Loop over some type of files and use the 
 # "grep" UNIX command to find snippets of strings in them.
