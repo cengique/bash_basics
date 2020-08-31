@@ -15,3 +15,9 @@ done
 
 # exercise: Loop over some type of files and use the 
 # "grep" UNIX command to find snippets of strings in them.
+for file in *.sh; do
+    echo "grep 'exercize' in the file $file returns:"
+    grep "exercise" -i $file && echo "yes"> /dev/null || echo "nothing"
+done
+
+
