@@ -27,40 +27,40 @@ done
 count=1
 rank=1
 echo " "
-echo " ________________ "
-echo "(Merry Christmas!)"
-echo " (._._._._._. ._)"
-echo " ____  _____ v__    "
-echo "(____)(*.*.*)([:)|=="
+echo " ____________________ "
+echo "(I'm the Christmas Ant!)"
+echo " (._._._._._. ._._.)"
+echo " _____  _____ v____"
+echo "(,.,.,)(,.,.,)(*,,*)"
 echo " "
 
 while [ $count -le 12 ]; do
-    echo "On the $count day of Christmas, my true love gave to me: "
+    echo "On the $count day of Christmas, the Christmas ant gave to me: "
     while [ $rank -ge 1 ]; do
       if [ $rank -eq 1 ]; then
-        echo "     * A partridge in a pear tree"
+        echo "     > A picnic in a pear tree"
       elif [ $rank -eq 2 ]; then
-        echo "     * * Two turtle doves"
+        echo "     > > Two turtle crumbs"
       elif [ $rank -eq 3 ]; then
-        echo "     * * * Three French hens"
+        echo "     > > > Three French fries"
       elif [ $rank -eq 4 ]; then
-        echo "     * * * * Four calling birds"
+        echo "     > > > > Four crawling birds"
       elif [ $rank -eq 5 ]; then
-        echo "     * * * * * Five golden rings"
+        echo "     > > > > > Five sugar rings"
       elif [ $rank -eq 6 ]; then
-        echo "     * * * * * * Six geese a laying"
+        echo "     > > > > > > Six geese a crawling"
       elif [ $rank -eq 7 ]; then
-        echo "     * * * * * * * even swans a swimming"
+        echo "     > > > > > > > Seven swants a swimming"
       elif [ $rank -eq 8 ]; then
-        echo "     * * * * * * * * Eight maids a milking"
+        echo "     > > > > > > > > Eight chocolate milking"
       elif [ $rank -eq 9 ]; then
-        echo "     * * * * * * * * * Nine ladies dancing"
+        echo "     > > > > > > > > > Nine ladies danting"
       elif [ $rank -eq 10 ]; then
-        echo "     * * * * * * * * * * Ten lords a leaping"
+        echo "     > > > > > > > > > > Ten antlords a leaping"
       elif [ $rank -eq 11 ]; then
-        echo "     * * * * * * * * * * * Eleven pipers piping"
+        echo "     > > > > > > > > > > > Eleven biters biting"
       elif [ $rank -eq 12 ]; then
-        echo "     * * * * * * * * * * * * Twelve drummers drumming"
+        echo "     > > > > > > > > > > > > Twelve antdrummers antdrumming"
       else
         echo "$count"
       fi
