@@ -5,14 +5,14 @@ echo "What did you get in the first ITEC 3860 test?"
 echo "Please give a numeric answer"
 read grade
 
-if [ $grade -ge 90 ]; then
-   echo "You got an A. Nice."
-elif [ $grade -ge 80 ]; then
-   echo "You got a B. That's good."
+if [ $grade -ge 80 ]; then
+   echo "its hot"
 elif [ $grade -ge 70 ]; then
-   echo "You got a C. Not bad."
+   echo "It's okay."
+elif [ $grade -ge 60 ]; then
+   echo "It's chilly."
 else
-   echo "Time to work on some extra credit assignments"
+   echo "its cold"
 fi
 
 # exercise: write a script (that utilizes weather-util) 
