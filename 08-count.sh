@@ -14,10 +14,10 @@ for file in *.sh; do
 done
 
 for file in *.sh; do
-	grep -w 'command' README.md
-	grep -w 'Todo' README.md
-	grep -w 'explanation' README.md
-done
+	grep -w 'Adding a new page' README.md
+	grep -w 'building' README.md
+	grep -w 'quick start' README.md
+done 
 
 # exercise: Loop over some type of files and use the 
 # "grep" UNIX command to find snippets of strings in them.
