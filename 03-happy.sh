@@ -14,6 +14,9 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+#this is for the weekend
+
 echo "weekend"
 read today
 
