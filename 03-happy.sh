@@ -19,3 +19,4 @@ if [[ $(date +%u) -gt 5 ]]; then
 else
 	echo "It is not the weekend :("
 fi 
+
