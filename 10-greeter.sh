@@ -22,10 +22,10 @@ function night_greet
   echo "Have a great night, ${1}!"
 }
 
-echo "Please enter your name"
+echo "What is your name?"
 read name
 
-echo "Is it light outside, $name?"
+echo "Is the sun shining right now, $name?"
 read time
 
 day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
