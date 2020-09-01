@@ -14,3 +14,10 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+LANG=C DOW=$(date +"%a")
+
+if [ "$DOW" = "Sat" ]  || [ "$DOW" = "Sun" ]; then
+  echo "It's the weekend ;)"
+else
+  echo "It's not the weekend :("
+fi
