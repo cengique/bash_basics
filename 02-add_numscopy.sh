@@ -16,11 +16,11 @@ echo "The sum is $sum"
 
 echo "Enter the height of the screen"
 
-read height
+read ht
 
 echo "Enter the width of the screen"
 
-read width
+read wt
 
-pixels=$(( height*width ))
-echo "The total number of pixels is $pixels"
+pixels=$(( ht*wt ))
+echo "The total number of pixels: $pixels"
