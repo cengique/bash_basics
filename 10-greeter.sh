@@ -20,6 +20,8 @@ function monday_blues
 echo "Please enter your name:"
 read name
 
+# differences
+
 day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
 
 if [ $day = "Mon" ]; then
@@ -29,6 +31,7 @@ elif [ $day = "Sat" ] || [ $day = "Sun" ]; then
 else
    weekday_greet $name
 fi
+
 
 # exercise: Add a second argument to the function 
 # and make it give a greeting based on the new 
