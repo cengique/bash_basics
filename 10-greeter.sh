@@ -13,16 +13,27 @@ function weekday_greet
 }
 
 
-echo "Please enter your name"
+
+# differences
+function monday_blues
+{
+	echo "You have the rest of the week to work!"
+}
+
+echo "Please enter your name:"
+
 read name
 
 day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
 
-if [ $day = "Sat" ] || [ $day = "Sun" ]; then
+if [ $day = "Mon" ]; then
+	monday_blues
+elif [ $day = "Sat" ] || [ $day = "Sun" ]; then
    weekend_greet $name
 else
    weekday_greet $name
 fi
+
 
 # exercise: Add a second argument to the function 
 # and make it give a greeting based on the new 
