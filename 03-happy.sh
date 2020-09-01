@@ -9,6 +9,10 @@ else
    echo "Still Smile :)"
 fi
 
+echo "is it the weekend?"
+day=$(date +"%a")
+read -p "today is $day"
+
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
