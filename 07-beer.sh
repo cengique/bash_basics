@@ -40,4 +40,5 @@ while [ $count -ge 0 ]; do
   # the following statement is equivalent to: let "count=count-1"
   ((count = count - 1))
 
+
 done
