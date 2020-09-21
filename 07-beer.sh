@@ -24,20 +24,6 @@ done
 # using loops and if statements.
 echo "Let's sing a Christmas Song"
 echo "12 days of Christmas"
-read count
-
-while [ $count -ge 0 ]; do
-  if [ $count -ge 2 ]; then
-      echo "$count bottles of beer on the wall, $count bottles of beer"
-      echo "Take one down pass it around"
-  elif [ $count -eq 1 ]; then
-      echo "$count bottle of beer on the wall, $count bottles of beer"
-      echo "Take one down pass it around"
-  else
-      echo "no more bottles of beer on the wall"
-  fi
-  
-  # the following statement is equivalent to: let "count=count-1"
-  ((count = count - 1))
-
+read  grade
+echo i am changing this file.
 done
