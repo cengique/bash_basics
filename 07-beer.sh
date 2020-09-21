@@ -22,3 +22,23 @@ done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
 # using loops and if statements.
+echo "Let's sing a Boba Song"
+echo "How many Boba's?"
+read count
+
+while [ $count -ge 0 ]; do
+  if [ $count  -ge 2 ]; then
+      echo "$count number of bobas in a cup, $count number of bobas"
+      echo "Take one down pass it around"
+  elif [ $count -eq 1 ]; then
+      echo "$count number of bobas in a cup, $count bobas of bobas"
+      echo "Take one down pass it around"
+  else
+      echo "no more bobas in a cup"
+  fi
+  
+  # the following statement is equivalent to: let "count=count-1"
+  ((count = count - 1))
+
+
+done
